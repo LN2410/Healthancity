@@ -1,0 +1,56 @@
+
+<!Doctype html>
+<html>
+    <style>
+
+    </style>
+        <title>BMI Calculator</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+        <body>
+             <h1>Body Mass Index Calculator</h1>
+            <p>Enter your height:
+                <input type="text" id="height" onclick="this.value=''"/>
+                <select type="multiple" id="heightunits">
+                    <option value="metres" selected="selected">metres</option>
+                    <option value="inches">inches</option>
+                </select>
+            </p>
+            <p>Enter your weight:
+                <input type="text" id="weight" onclick="this.value=''"/>
+                <select type="multiple" id="weightunits">
+                    <option value="kg" selected="selected">kilograms</option>
+                    <option value="lb">pounds</option>
+                </select>
+            </p>
+            <input type="button" value="computeBMI" onclick="computeBMI()"/>
+             <h1>Your BMI is: <span id="output">?</span></h1>
+
+            <h2>This means you are: value = <span id='comment'></span> </h2>
+            <div id="firstquote" class="w3-hover-shadow w3-padding-64 w3-center">
+                <p>Did you know?</p>
+                <li>You Make favorite dishes healthier</li>
+                <li>Remove calorie-rich temptations.</li>
+                <li>Remove calorie-rich temptations</li>
+                <li>Help your kids understand the benefits of being physically active</li>
+
+            </div>
+            <div id="secondquote" class="w3-hover-shadow w3-padding-64 w3-center">
+                    <p>Did you know?</p>
+                    <li>You Make favorite dishes healthier</li>
+                    <li>Remove calorie-rich temptations.</li>
+                    <li>Remove calorie-rich temptations</li>
+                    <li>Help your kids understand the benefits of being physically active</li>
+
+                </div>
+                <div id="thirdQuote" class="w3-hover-shadow w3-padding-64 w3-center">
+                        <p>Did you know?</p>
+                        <li>You Make favorite dishes healthier</li>
+                        <li>Remove calorie-rich temptations.</li>
+                        <li>Remove calorie-rich temptations</li>
+                        <li>Help your kids understand the benefits of being physically active</li>
+
+                    </div>
+        </body>
+<script src="js/index.js"></script>
+</html>
